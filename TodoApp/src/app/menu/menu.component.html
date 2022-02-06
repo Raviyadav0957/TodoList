@@ -1,0 +1,14 @@
+<header>
+  <nav class="navbar navbar-expand-md nav-dark bg-dark">
+    <ul class="navbar-nav">
+      <div>
+        <a routerLink="/todos" class="navbar-brand"> Angular Spring Boot</a>
+      </div>
+      <li><a routerLink="/todos" *ngIf="authService.isUserLoggedIn()" class="nav-link">Todos</a></li>
+    </ul>
+    <ul class="navbar-nav navbar-collapse justify-content-end">
+      <li><a routerLink="/login" *ngIf="!authService.isUserLoggedIn()" class="nav-link">Login</a></li>
+      <li><a routerLink="/logout" *ngIf="authService.isUserLoggedIn()" class="nav-link">Logout</a></li>
+    </ul>
+  </nav>
+</header>

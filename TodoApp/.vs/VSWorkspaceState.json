@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\list-todos",
+    "\\src\\app\\login",
+    "\\src\\app\\service",
+    "\\src\\app\\service\\data",
+    "\\src\\app\\todo"
+  ],
+  "SelectedNode": "\\src\\app\\app.constants.ts",
+  "PreviewInSolutionExplorer": false
+}
